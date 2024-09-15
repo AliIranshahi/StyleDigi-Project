@@ -1,0 +1,43 @@
+.grid-container-roxp{
+    padding: 1rem 0;
+    font-family: "estedad";
+    .producnt-grid{
+        p{
+            margin: 0;
+        }
+        .cols-3{
+            grid-template-columns: auto auto auto;
+            .optinal-grid-product{
+                font-family: "normal";
+                border: 3px solid transparent;
+                transition: all 0.25s ease-in-out;
+                p{
+                    font-size: 18px;
+                    padding: 0.75rem;
+                }
+                .button-add-card{
+                    button{
+                        background-color: black;
+                        border-radius: 15px;
+                        color: white;
+                        width: 100%;
+                        padding: 0.5rem;
+                        outline: none;
+                        border: none;
+                        transition: all 0.25s ease-in-out;
+                    }
+                    padding: 0.75rem;
+                }
+                .button-add-card button:hover{
+                 background-color: rgb(204, 204, 204);
+                 color: black;
+                 outline: none;
+                 border: none;                 
+                }
+            }
+            .optinal-grid-product:hover{
+                border: 3px solid black;
+            }
+        }
+    }
+}

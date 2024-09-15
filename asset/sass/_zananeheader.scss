@@ -1,0 +1,234 @@
+.header-rex{
+    background: linear-gradient(
+        45deg,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),
+    url(../images/gucci\ bag.webp);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .nav-mobile{
+        ul{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            font-size: 27px;
+            color: white ;
+        }
+    }
+    .all-header {
+        .top-header {
+            position: absolute;
+            z-index: 20;
+            padding: 0 5%;
+            font-family: "estedad";
+            font-weight: 100 !important;
+            .form-control{
+                font-size: 12px;
+                font-weight: lighter;
+                color: white;
+            }
+            ul {
+                margin: 0 !important;
+            }
+            ul:first-child{
+                a{
+                    color: white;
+                }
+            }
+            ul:nth-child(2){
+                i{
+                    color: white;
+                }
+            }
+            a {
+                text-decoration: none;
+                line-height: 3;
+                color: inherit;
+                img {
+                    background-color: black;
+                }
+            }
+            li {
+                list-style: none;
+            }
+            .spt {
+                background-color: #ef5a88;
+                border-radius: 15px !important;
+                border-color: #ef5a88 !important;
+                top: 24px;
+                right: 53px;
+                padding: 0px 5px;
+                font-size: 9px;
+            }
+    
+            .icon-header {
+                font-size: 22px;
+            }
+    
+            input {
+                background-color: inherit;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-color: #ffffff;
+                border-radius: 0;
+                padding-left: 0;
+                
+            }
+            input::placeholder{
+                color: white;
+            }
+    
+            .input-group-text {
+                border-left: none !important;
+                border-top: none;
+                border-right: none;
+                background-color: inherit;
+                border-color: rgb(255, 255, 255);
+                border-radius: 0;
+                color: white;
+            }
+    
+            input:focus {
+                border-color: #ffffff !important;
+                background-color: inherit !important;
+                box-shadow: none;
+            }
+    
+            .brand-icon {
+                padding-right: 70px;
+            }
+    
+            .border-for-top {
+                border-top: 1px solid black;
+            }
+        }
+        .nav-header{
+            position: absolute;
+            z-index: 10;
+            margin-top: 4.2rem;
+            font-family: "estedad";
+            a{
+                text-decoration: none;
+                color: #000;
+                font-weight: 500;
+                font-size: 12px;
+            }
+            li{
+                list-style: none;
+                
+            }
+            li:hover{
+                a{
+                    font-weight: 900;
+                }
+                
+            }
+        }
+    }
+    .section-nav-menu{
+        .nav-header{
+            border: 1px solid #fff;
+            background-color: #fff;
+            border-radius: 15px;
+        }
+        ul{
+            gap: 20px;
+        }
+    }
+    
+    .mySwiper {
+        position: relative !important;
+    }
+    .phone-screen{
+        border-bottom: 1px solid black;
+        font-family: "estedad";
+        font-weight: 100 !important;
+        .form-control{
+            font-size: 12px;
+            font-weight: lighter;
+        }
+        input {
+            background-color: inherit;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-color: #00000060;
+            border-radius: 0;
+            padding-left: 0;
+        }
+    
+        .input-group-text {
+            border-left: none !important;
+            border-top: none;
+            border-right: none;
+            background-color: inherit;
+            border-color: rgba(0, 0, 0, 0.377);
+            border-radius: 0;
+        }
+    
+        input:focus {
+            border-color: #00000060 !important;
+            background-color: inherit !important;
+            box-shadow: none;
+        }
+        nav{
+            padding-bottom: 1rem;
+            padding-top: 1rem;
+            ul{
+                list-style: none;
+                padding: 0;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 2rem;
+                }
+            }
+            ul:first-child{
+                a{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+    .flex-column{
+        flex-direction: column;
+    }
+    .line-hight-bmast{
+        line-height: 3rem;
+    }
+}
+.div-about-shop{
+    position: relative;
+    top: 60%;
+    font-family: "estedad";
+    h2{
+        margin: 0;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+    .h2-custom-tx{
+        margin: 0;
+        color: white;
+        font-size: 21px;
+        line-height: 2.5rem;
+    }
+    .move-arrow-more{
+        animation: movearrow 1s ease-in-out infinite alternate;
+    }
+}
+@keyframes movearrow {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}

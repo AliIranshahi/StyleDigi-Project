@@ -1,0 +1,17 @@
+@media(max-width:768px){
+    .div-about-shop{
+        flex-direction: column !important;
+        text-align: center;
+        font-size: 0.75rem;
+    }
+    .grid-container-roxp{
+        .cols-3{
+            grid-template-columns: auto !important;       
+        }
+    }
+    .top-header,.nav-header{
+        a{
+            color: black !important;
+        }
+    }
+}

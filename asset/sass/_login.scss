@@ -1,0 +1,118 @@
+.beforeafter{
+    background: url(../images/Mountains2.jpg) !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    position: relative;
+
+}
+.beforeafter::after{
+    content: "";
+    width: 100% ;
+    height: 100% ;
+    background: linear-gradient(45deg,rgb(91,91,91,0.767),rgba(63, 63, 63, 0.785)) ;
+    position: absolute ;
+    z-index: 30 ;
+    right: 0;
+    top: 0;
+}
+.login-seciton{
+    position: relative;
+    z-index: 50;
+    width: 100vw;
+    height: 100vh;
+    font-family: "normal";
+    align-items: center;
+    .form-action{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        .visibleicon{
+            width: 30px;
+            cursor: pointer;
+        }
+    }
+    .form-control{
+        border: 2px solid transparent;
+        box-shadow: none !important;
+    }
+    .form-control:focus{
+        border: 2px solid black;
+    }
+    .forgot-password-text{
+        a{
+            font-family: "estedad-100";
+            text-decoration: underline rgb(0, 0, 0);
+            text-underline-offset: 8px;
+            color: white;
+            transition: all 0.2s ease-in-out;
+            font-size: 11px;
+        }
+    }
+    .forgot-password-text:hover{
+        a{
+            color: rgba(0, 0, 0, 0.815);
+            text-decoration: underline rgb(255, 255, 255);
+        }
+    }
+    .buttonsign button{
+        background-color: black;
+        border: none;
+        outline: none;
+        color: white;
+        width: 100%;
+        border-radius: 15px;
+        padding: 0.60rem;
+        transition: all 0.25s ease-in-out;
+        padding: .6rem 20px !important;
+    } 
+    .buttonsign button:hover{
+        background-color: white;
+        color: black;
+    }
+    .label-justify-content-between{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .button-sabtnam{
+        background-color: #000;
+        border: none;
+        outline: none;
+        color: white;
+        border-radius: 15px;
+        padding: 10px 0px;
+        transition: all .25s ease-in-out;
+        a{
+            text-decoration: none;
+            color: white;
+            padding: .6rem 20px;
+        }
+    }
+    .mpa{
+        background-color: black;
+        color: white;
+        border: none;
+        outline: none;
+        border-radius: 11px;
+        padding: 7px 0px;
+        transition: all 0.4s;
+    }
+    .mpa:hover{
+        background-color: white;
+        color: black;
+    }
+}
+@media(max-width:768px){
+    .form-action{
+        width: 80% !important;
+    }
+    .buttonsign {
+        display: flex ;
+        flex-direction: column ;
+        gap: 1rem;
+        .w-40{
+            width: 100% !important;
+        }
+    }
+}

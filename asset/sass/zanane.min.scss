@@ -1,0 +1,136 @@
+@use"zananeheader.scss";
+@use"zananemain.scss";
+@use"boot";
+@use"layout";
+@use"swiperinit";
+@use"mobilezanane";
+@use"fonts";
+@use"animate";
+@use"isotope";
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.mobile-design{
+    font-family: "normal";
+    nav{
+        input {
+            background-color: inherit;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-color: #00000060;
+            border-radius: 0;
+            padding-left: 0;
+        }
+
+        .input-group-text {
+            border-left: none !important;
+            border-top: none;
+            border-right: none;
+            background-color: inherit;
+            border-color: rgba(0, 0, 0, 0.377);
+            border-radius: 0;
+        }
+
+        input:focus {
+            border-color: #00000060 !important;
+            background-color: inherit !important;
+            box-shadow: none;
+        }
+
+        ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            line-height: 5rem;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        display: flex;
+        flex-direction: column;
+        ul:nth-child(2){
+            margin-bottom: 2rem;
+        }
+        ul:nth-child(3){
+        
+            display: flex;
+             flex-direction: column;
+         
+        }
+    }
+    .li-first{
+        background: url(../images/mobile-design1.png);
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        min-height: 96px;
+        border-top: none;
+        margin-bottom: 12px;
+        background-color: #f5d7d9;
+        span{
+            position: absolute;
+            right: 8%;
+            top: 20%;
+            font-size: 22px;        
+        }
+    }
+    .li-two{
+        background: url(../images/mobile-design2.png);
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        min-height: 96px;
+        border-top: none;
+        margin-bottom: 12px;
+        background-color: #f1c9c2;
+        span{
+            position: absolute;
+            top: 20%;
+            right: 8%;
+            font-size: 22px;        
+        }
+    }
+    .li-tree{
+        background: url(../images/monile-design-3.png);
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        min-height: 96px;
+        border-top: none;
+        margin-bottom: 12px;
+        background-color: #f7dfdd;
+        span{
+            position: absolute;
+            right: 8%;
+            top: 20%;
+            font-size: 22px;        
+        }
+    }
+    .li-four{
+        background: url(../images/mobile-design4.png);
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        min-height: 96px;
+        border-top: none;
+        margin-bottom: 12px;
+        background-color: #f7e2e7;
+        span{
+            position: absolute;
+            right: 8%;
+            top: 20%;
+            font-size: 22px;        
+        }
+    }
+}
+
+
