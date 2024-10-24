@@ -1,2 +1,2 @@
-# StyleDigi-Project
-# StyleDigi-Project
+توضیحات پروژه : 
+صفحه اصلی سایت فایل index میباشد و بخش های zannane و mardane و login زیر مجموعه سایت اصلی میباشد . 
